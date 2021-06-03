@@ -30,6 +30,6 @@ select companies.Name FROM companies WHERE companies.Name in (SELECT employees.C
 
 select name,MAX(Points) FROM students ;
 select avg(Points) FROM students ;
-select count(ID) FROM students WHERE Points >500;
+select count(ID) FROM students WHERE Points =500;
 select name from students where name LIKE "%s%";
 select * FROM students ORDER BY Points DESC;
